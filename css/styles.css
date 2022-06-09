@@ -1,0 +1,65 @@
+﻿body {
+  margin-bottom: 80px;
+	overflow-y: scroll;
+}
+.jumbotron {
+	padding: 2rem;
+}
+#share-buttons {
+	margin-bottom: 2rem;
+}
+.adsbygoogle {
+    display: block;
+}
+#factorform label {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+fieldset.factoring {
+   border: solid thin black !important;
+   padding: 1rem;
+   margin-bottom: 1rem;
+   font-weight: bold;
+   font-size: 1.5rem;
+}
+fieldset.factoring legend {
+  width: auto;
+  padding: 0 10px;
+  border-left: solid thin black;
+  border-right: solid thin black;
+  font-size: 1.2rem;
+}
+fieldset.factoring div {
+  font-family: monospace;
+}
+#factortable {
+  table-layout: fixed;  
+}
+#factortable #col1 {
+  width: 15%;
+}
+#factortable #col2 {
+  width: 35%;
+}
+#factortable #col3 {
+  width: 25%;
+}
+#factortable #col4 {
+  width: 25%;
+}
+#factortable .header {
+  background: black;
+  color: white;
+}
+#copyToClipboard {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+#copyToClipboard img {
+  width: 100%; 
+  cursor: pointer;
+}
+
+
